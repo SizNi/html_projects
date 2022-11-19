@@ -19,3 +19,9 @@ body {
     text-align: center;
     font-size: 25px;
   }
+  p {
+    background: black;
+  }
+  .padding{
+    padding: 30px;
+  }
