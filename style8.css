@@ -1,0 +1,24 @@
+:root {
+  --transparent: transparent;
+  --purple: #9c27b0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  /* BEGIN (write your solution here) */
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent 0px, transparent 100px,
+    #9c27b0 100px, #9c27b0 200px
+  ), repeating-linear-gradient(
+    -45deg,
+    #9c27b0 0px, #9c27b0 100px,
+    transparent 100px, transparent 200px
+  );
+  /* END */
+}
